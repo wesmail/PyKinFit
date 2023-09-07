@@ -94,7 +94,7 @@ $M = \sqrt{(E_1 + E_2)^2 - ||\vec{p}_1 + \vec{p}_2||^2}$
 
 In this tutorial, the constraint equation is defined as:
 
-$M = 2 E_1 E_2  (1 - \cos(\theta)) - m^2 = 0$
+$f = 2 E_1 E_2  (1 - \cos(\theta)) - M^2 = 0$
 
 Here, $E_{1}$ and $E_{2}$ are the energies of the two photons, $\theta$ is the angle between them, and $m$ is the nominal mass of the pi0 (0.1349766 GeV/c²). This constraint eqaution is implemented as a function in the code. This function must take a `torch` tensor as an argument, which represents the measured parameters (in this case te enrgies of the photons, in addition to the angle between the two photons) and return a `torch` tensor that represents the constraint eqaution(s). All the 'constant' parameters sould be included into this constraint function. In the mass of $\pi^0$ is used in the constraint equation but is not part of the parameters. Therefore, the mass is defined inside the function as a constant parameter.   
 
