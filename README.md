@@ -199,3 +199,16 @@ The tutorial produces the following histograms:
 ## References
 
 "[KinFit -- A Kinematic Fitting Package for Hadron Physics Experiments.](https://arxiv.org/pdf/2308.09575.pdf)" arXiv:2308.09575 [physics.data-an], August 2023.
+
+## Citation  
+```shell script
+@article{Esmail:2023yjg,
+    author = {Esmail, Waleed and Rieger, Jana and Taylor, Jenny and Bohman, Malin and Sch\"onning, Karin},
+    title = "{KinFit -- A Kinematic Fitting Package for Hadron Physics Experiments}",
+    eprint = "2308.09575",
+    archivePrefix = "arXiv",
+    primaryClass = "physics.data-an",
+    month = "8",
+    year = "2023"
+}
+```
